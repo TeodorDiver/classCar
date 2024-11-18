@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es6", // Целевая версия JavaScript
+        "module": "commonjs", // Модульная система
+        "strict": true, // Включение строгого режима
+        "esModuleInterop": true, // Для совместимости с CommonJS
+        "skipLibCheck": true, // Пропуск проверки типов в библиотеках
+        "forceConsistentCasingInFileNames": true // Обеспечение согласованности имен файлов
+    },
+    "include": [
+        "./**/*.ts" // Включает все файлы .ts в проекте
+    ],
+    "exclude": [
+        "node_modules" // Исключает папку node_modules
+    ]
+}
